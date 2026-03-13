@@ -1,1 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AmerCards</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+}
+
+nav{
+background:#020617;
+padding:15px;
+display:flex;
+justify-content:space-between;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:15px;
+}
+
+.container{
+padding:20px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+button{
+background:#22c55e;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+<div>AmerCards</div>
+
+<div>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+</div>
+
+</nav>
+
+<div class="container">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Steam Cards</h3>
+<button>Order</button>
+</div>
+
+<div class="card">
+<h3>Google Play</h3>
+<button>Order</button>
+</div>
+
+<div class="card">
+<h3>PlayStation</h3>
+<button>Order</button>
+</div>
+
+<div class="card">
+<h3>Netflix</h3>
+<button>Order</button>
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
